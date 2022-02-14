@@ -1,0 +1,22 @@
+{
+  "name": "ninjamail-template",
+  "version": "1.0.0",
+  "description": "Exercise 1 for Frontend experts OKR.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "okr",
+    "frontend",
+    "exercise"
+  ],
+  "author": "Aman Srivastava <aman.srivastava@acquia.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.7"
+  }
+}

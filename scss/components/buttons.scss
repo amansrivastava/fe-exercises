@@ -1,0 +1,26 @@
+.btn {
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    font-style: normal;
+    
+}
+
+.btn-primary {
+    background-color: $clr-primary !important;
+    color: $clr-text-alt !important;
+}
+
+.btn-primary-invert {
+    background-color: $clr-primary-alt;
+    color: $clr-primary;
+    outline-offset: -6px;
+}
+
+.btn-large {
+    min-width: 200px;
+    padding: 20px 30px;
+    font-size: 21px;
+    line-height: 25px;
+    border: 3px solid $clr-primary;
+}

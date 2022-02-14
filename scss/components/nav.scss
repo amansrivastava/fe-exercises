@@ -1,0 +1,27 @@
+.nav {
+    font-size: 20px;
+    line-height: 22px;
+    a {
+        color: $clr-text;
+    }
+    &.nav-horizontal {
+        ul {
+            display: flex;
+            li {
+                margin: 0 15px;
+            }
+        }
+    }
+    &.primary-nav {
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        li {
+            border-bottom: 5px solid $clr-primary;
+            padding: 10px 20px;
+            margin: 5px 10px;
+        }
+    }
+}
