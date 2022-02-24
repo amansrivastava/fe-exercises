@@ -58,15 +58,15 @@ function buildSprites(cb) {
     cb();
 }
 
-function watchSass(cb) {
+gulp.task(clean);
+gulp.task('watch', function(cb) {
   clean(cb);
   buildStyles(cb);
   console.log("Watching SASS changes");
   gulp.watch(["./assets/scss/*.scss", "./assets/scss/**/*.scss"], buildStyles);
-}
+  gulp.watch(["assets/js/*.js"], buildJs);
+});
 
-gulp.task(clean);
-gulp.task('watch', watchSass);
 gulp.task("build", function(cb) {
   console.log('Building files.');
   buildSprites(cb);
