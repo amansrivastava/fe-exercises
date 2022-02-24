@@ -1,0 +1,1 @@
+console.log("This message is written in File1.js");
